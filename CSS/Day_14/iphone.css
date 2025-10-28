@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+#nav{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(49, 46, 46);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+#nav h4{
+    color: white;
+}
+#center{
+    height: 70%;
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+    background-image: url(https://www.apple.com/v/iphone-17-pro/c/images/overview/cameras/lenses/pro_camera_system_v02_statics_endframe__hwtzkm6umyaa_xlarge_2x.jpg);
+    background-position:center;
+    background-size:cover;
+}
+#center h1{
+    color: white;
+    font-size: 50px;
+}
+#center h5{
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+}
+#links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+#links button{
+    background-color: royalblue;
+    margin-top: 30px;
+    padding: 13px 20px;
+    border-radius: 50px;
+    border: none;
+}
