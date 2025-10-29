@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+#parent{
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+    background-color: lightblue;
+}
+.card{
+    height: 400px;
+    width: 300px;
+    position: relative;
+    background-color: rgb(245, 245, 245);
+    transition: all ease 0.5s;
+    overflow: hidden;
+}
+.card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.bottom{
+    height: 40%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    bottom: -40%;
+}
+
+.card:hover .bottom{
+    bottom: 0;
+    background: linear-gradient(transparent ,black);
+}
