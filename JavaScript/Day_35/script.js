@@ -81,7 +81,7 @@
 
 // let start = +prompt("Enter a starting number");
 // let end = +prompt("Enter a ending number");
-// if(start > end) console.error("Start cannot be bigger than this");
+// if(start > end) console.error("Start cannot be bigger tgithan this");
 // for(let i = start ; i<= end ; i++){
 //     console.log(i);
 // }
