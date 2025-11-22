@@ -88,14 +88,66 @@
 
 // Question 17
 
-let count = 0;
+// let count = 0;
 
-for(let i = 1; i< 21 ; i++){
-    if(count == 3){
-        break;
-    }
-    if(i % 2 !== 0){
-        count++;
-        console.log(i);
-    }
-}
+// for(let i = 1; i< 21 ; i++){
+//     if(count == 3){
+//         break;
+//     }
+//     if(i % 2 !== 0){
+//         count++;
+//         console.log(i);
+//     }
+// }
+
+// Question 18
+
+// let counter = 0;
+// for(let i = 1; i< 6 ; i++){
+//     let num= prompt("Enter a number");
+//     if(num >= 0){
+//         counter++;
+//     }
+// }
+// console.log(counter);
+
+// Question 19
+// Atm simulator - balance = 1000
+
+// let balance = 1000;
+// let flag = false;
+// let counter = 0;
+// while(balance > 0 && counter!== 3){
+//     let withdraw = +prompt("kitna amount withdraw karna hai ");
+//     counter++;
+//     if(withdraw <= balance){
+//         balance -= withdraw;
+//     }else{
+//         flag = true;
+//         break;
+//     }
+// }
+// if(flag === true){
+//     console.log("Insufficient balance");
+// }
+// console.log(balance);
+
+
+// Recursion
+
+// function abcd(n){
+//     if(n === 0) return;
+//     console.log(n);
+//     abcd(n-1);
+// }
+// abcd(5);
+
+
+// Function
+
+// function doSomething(name , age ,address){
+//     console.log(arguments[2]);
+// }
+// doSomething("Deepesh",20,"deepesh3950lodhi@gmail.com");
+
+

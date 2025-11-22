@@ -54,12 +54,116 @@
 
 // Question - 7
 
-let obj = {
-    name : "Deepesh",
-    age : 20,
-    city : "Bhopal",
-};
+// let obj = {
+//     name : "Deepesh",
+//     age : 20,
+//     city : "Bhopal",
+// };
 
-for(let key in obj){
-    console.log(obj[key]);
-}
+// for(let key in obj){
+//     console.log(obj[key]);
+// }
+
+
+
+// Revision 
+
+// Question 1
+
+// function sum(a,b){
+//     return a+b;
+// }
+// console.log(sum(1,5));
+
+
+// Question - 2
+
+// function greet(guest = "guest"){
+//     console.log(`hello ${guest}!`);
+// }
+// greet();
+
+
+// Question - 3
+// let sum = 0;
+// function addUnl(...a){
+//     a.forEach(function(val){
+//         sum += val;
+//     })
+//     return sum;
+// }
+// console.log(addUnl(1,2,3,6,2,1));
+
+// Second way of doing it
+// function addUn(...nums){
+//     let sum = 0;
+//     for(let i = 0 ; i< nums.length ; i++){
+//         sum += nums[i];
+//     }
+//     return sum;
+// }
+// console.log(addUn(1,2,3,6,2,1));
+
+// third way of doing it
+
+// function addUnl(...nums){
+//    let ans = nums.reduce(function(acc,val){
+//         return acc+val;
+//     },0);
+//     console.log(ans);
+// }
+// addUnl(1,2,3,2,1);
+
+// Question - 4
+
+// (function(){
+//     console.log("I run instantly!")
+// })();
+
+
+// Question - 5
+
+// function first(){
+//     let a = 10;
+//     function secound(){
+//         console.log(a);
+//     }
+//     secound();
+// }
+// first();
+
+// Question - 6 & 7
+
+// let fruit = ["banana","apple","mango","grapes","pineapple"];
+
+// fruit.push("guava");
+// console.log(fruit);
+
+// fruit.pop();
+// console.log(fruit);
+
+// for(let i = 0 ; i< fruit.length ; i++){
+//     console.log(fruit[i]);
+// }
+
+// question - 8
+
+// let obj = {
+//     name : "Deepesh",
+//     age : 20,
+//     email : "deepesh@gmail.com",
+//     city : "Bhopal",
+// };
+
+// console.log(obj.age);
+
+// for(let key in obj){
+//     console.log(obj[key]);
+// }
+
+
+// Set time out
+
+// setTimeout(() => {
+//     console.log("time is uppp");
+// }, 2000);

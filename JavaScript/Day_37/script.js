@@ -95,9 +95,53 @@
 
 // higher order funtion (HOF)
 
-function abcd(){
-   return function(){
-        console.log("Hlw");
-    }
-}
-abcd()();
+// function abcd(){
+//    return function(){
+//         console.log("Hlw");
+//     }
+// }
+// abcd()();
+
+
+
+
+
+// Revisionnnnn
+
+// function aaloKaParatha(){
+//     console.log("🫓🫓")
+// }
+// aaloKaParatha();
+
+// function abcd(parameter){
+//     console.log("Hello");
+// }
+
+// abcd(arguments);
+
+
+
+// function abcd(a,b,...c){
+//     console.log(a,b,c);
+// }
+// abcd(1,2,4,2,1);
+
+// Hoisting
+// abcd();
+// function abcd(){
+//     console.log("hello world");
+// }
+
+
+// let a = function(){
+//     console.log("hello world");
+// }
+// a();
+
+
+// let a = ()=>{
+//     console.log("Hello world");
+// }
+// a();
+
+
