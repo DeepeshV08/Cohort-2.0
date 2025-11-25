@@ -12,6 +12,10 @@ main{
     width: 100%;
     background-color: black;
     padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap : 10px
 }
 #card{
     /* height: 350px; */
@@ -23,7 +27,7 @@ main{
 
 }
 #card img{
-    height: 150px;
+    height: 100px;
     width: 100px;
     object-fit: cover;
     border-radius: 50%;

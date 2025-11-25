@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    color: white;
+    background-color: black;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right bottom , rgb(47, 47, 47) , rgb(17, 16, 16),rgb(18, 18, 18));
+}
+
+section{
+    height: 100%;
+    width: 400px;
+    background-color: black;
+    margin: auto;
+    border-radius: 20px;
+}
+.all-reels{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+.all-reels::-webkit-scrollbar{
+    display: none;
+}
+.reels{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    scroll-snap-align: start;
+    scroll-snap-type: always;
+}
+.reels video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.reels .bottom{
+    padding: 30px 20px;
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.566));
+    bottom: 0;
+}
+.bottom .user{
+    display: flex;
+    align-items: center;
+    gap : 10px
+}
+.bottom .user img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.bottom .user h4{
+    font-size: 15px;
+    font-weight: 500;
+}
+.bottom .user button{
+    color: white;
+    font-size: 12px;
+    background-color: transparent;
+    padding: 2px 4px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.bottom>h3{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.right{
+    width: 40px;
+    position: absolute;
+    right: 0;
+    /* transform: translateX(100%); */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    bottom: 10%;
+    gap : 15px;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+.right i{
+    font-size: 25px;
+
+}
+.right h6{
+    font-size: 15px;
+}
+.right>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.right h4{
+    cursor: pointer;
+}
+.love{
+    color:red;
+}
