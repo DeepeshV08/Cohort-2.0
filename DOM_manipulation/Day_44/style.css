@@ -15,6 +15,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 button{
      padding: 10px 20px;
@@ -22,7 +23,7 @@ button{
      background-color: crimson;
      border: none;
      border-radius: 2px;
-     z-index: 10;
+     z-index: 11;
      cursor: pointer;
 }
 button:active{

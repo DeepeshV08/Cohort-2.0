@@ -1,22 +1,16 @@
 class Book{
-    constructor(name , price , authorName,color){
+    constructor(name , author , price , color){
         this.name = name;
+        this.author = author;
         this.price = price;
-        this.authorName = authorName;
         this.color = color;
     }
-    pannaPalto(){}
-    bookMark(){}
-    padhlo(){}
+    bookMark(){
+        console.log("Book Mark lag gya");
+    }
+    pannaPalto(){};
 }
 
-let book1 = new Book("tatiyaBicchu",200,"harsh","red")
+let book1 = new Book("evil","deepesh",1200,"grey");
 console.log(book1);
 
-class User{
-    constructor(){
-        this.userName = "Deepesh";
-        this.age = 20;
-        this.city = "Bhopal";
-    }
-}
