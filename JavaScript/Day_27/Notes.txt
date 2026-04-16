@@ -1,0 +1,16 @@
+What is Javascript
+-Javascript is Scripting language
+
+
+Console properties
+
+Console.log() // used to print on Console
+Console.info() // it is also print but in some browser it may indicate by 'i' sign
+Console.warn() // yellow color warning
+Console.error() //used to indicate error on Console with red color
+Console.table() // it accept value in key : value pair in table form
+
+
+prompt / alert
+prompt() // used to input data in browser
+alert() // used to input alert

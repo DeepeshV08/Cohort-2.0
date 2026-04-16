@@ -7,24 +7,23 @@ html,
 body{
     height: 100%;
     width: 100%;
-}
-#car1{
-    height: 40%;
-    width: 40%;
-    background-color: red;
-    
-}
-#car2{
-    height: 50%;
-    width: 50%;
-    background-color: blue;
-    position: relative;
-}
-#car3{
-    height: 50%;
-    width: 50%;
-    background-color: beige;
-    position: absolute;
-    left: 80%;
+    background-color: black;
 }
 
+#car1{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+#car2{
+    width: 240px;
+    height: 240px;
+    background-color: aqua;
+}
+
+#car3{
+    height: 290px;
+    width: 290px;
+    background-color: blue;
+}
