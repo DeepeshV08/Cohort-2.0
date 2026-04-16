@@ -1,0 +1,19 @@
+add comments
+// single line comments
+/* */ multiline comments 
+
+datatypes - types of data store in a variable
+float - 5.5
+number - 55
+string - "Hello"
+boolean - true/false
+null - null
+array - arr = []
+object - arr = {}
+function - function abc(){}
+symbol - will learn later
+undefined - undefined
+NaN - not a number
+Infinity
+
+Relative and primitive data types
