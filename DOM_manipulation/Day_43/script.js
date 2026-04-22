@@ -47,38 +47,87 @@
 // console.log(arr[a]);
 
 
-let arr = [
-    {
-        team :'CSK',
-        primary:'yellow',
-        secondary : 'blue',
-    },
-    {
-        team :'MI',
-        primary:'blue',
-        secondary : 'gold',
-    },
-    {
-        team :'RCB',
-        primary:'red',
-        secondary : 'green',
-    },
-    {
-        team :'KKR',
-        primary:'purple',
-        secondary : 'gold',
-    },
-]
+// let arr = [
+//     {
+//         team :'CSK',
+//         primary:'yellow',
+//         secondary : 'blue',
+//     },
+//     {
+//         team :'MI',
+//         primary:'blue',
+//         secondary : 'gold',
+//     },
+//     {
+//         team :'RCB',
+//         primary:'red',
+//         secondary : 'green',
+//     },
+//     {
+//         team :'KKR',
+//         primary:'purple',
+//         secondary : 'gold',
+//     },
+// ]
 
 // let a = Math.floor(Math.random()*arr.length);
 // console.log(arr[a]);
 
-let btn = document.querySelector('button');
-let h1 = document.querySelector('h1');
-var body = document.querySelector('body');
-btn.addEventListener('click',function(){
+// let btn = document.querySelector('button');
+// let h1 = document.querySelector('h1');
+// var body = document.querySelector('body');
+// btn.addEventListener('click',function(){
+//     let a = Math.floor(Math.random()*arr.length);
+//     h1.innerHTML = arr[a].team;
+//     h1.style.backgroundColor = arr[a].secondary;
+//     body.style.backgroundColor = arr[a].primary;
+// })
+
+
+let arr = [
+    {
+        team:"RCB",
+        primary : 'red',
+        secondary : 'green'
+    },
+    {
+        team : 'CSK',
+        primary:'yellow',
+        secondary:'blue'
+    },
+    {
+        team : "KKR",
+        primary:"purple",
+        secondary:'gold'
+    },
+    {
+        team :"SRH",
+        primary:'orange',
+        secondary:'black'
+    },
+    {
+        team:"PUNJAB",
+        primary:'orange',
+        secondary:'blue'
+    },
+    {
+        team : 'DELHI',
+        primary:'blue',
+        secondary:'yellow'
+    }
+]
+
+
+let button = document.querySelector('button');
+let body = document.querySelector('body');
+let h1 = document.querySelector('h1')
+
+button.addEventListener('click',()=>{
+
     let a = Math.floor(Math.random()*arr.length);
-    h1.innerHTML = arr[a].team;
+
+    h1.textContent = arr[a].team;
     h1.style.backgroundColor = arr[a].secondary;
     body.style.backgroundColor = arr[a].primary;
 })
+
