@@ -24,24 +24,54 @@
 
 
 
-var btn = document.querySelector("button")
-var main = document.querySelector('main');
+// var btn = document.querySelector("button")
+// var main = document.querySelector('main');
 
-btn.addEventListener("click",function(){
-    let x = Math.floor(Math.random()*100+1);
-    let y = Math.floor(Math.random()*100+1);
-    let r = Math.floor(Math.random()*100+1);
+// btn.addEventListener("click",function(){
+//     let x = Math.floor(Math.random()*100+1);
+//     let y = Math.floor(Math.random()*100+1);
+//     let r = Math.floor(Math.random()*100+1);
+//     let c1 = Math.floor(Math.random()*256);
+//     let c2 = Math.floor(Math.random()*256);
+//     let c3 = Math.floor(Math.random()*256);
+
+//     let div = document.createElement("div");
+//     div.style.height = "80px";
+//     div.style.width = "80px";
+//     div.style.position = "absolute";
+//     div.style.left = x+"%";
+//     div.style.top = y+"%";
+//     div.style.backgroundColor = `rgb(${c1},${c2},${c3})`;
+//     div.style.rotate = r+"deg";
+//     main.appendChild(div);
+// })
+
+
+
+let button = document.querySelector('button')
+let main = document.querySelector('main')
+
+let arr = ['Deepesh','sarthack','harsh','ankur','prateek','ajay','ajitesh']
+button.addEventListener('click',()=>{
+
+    let div = document.createElement('div')
+    let h1 = document.createElement('h1');
     let c1 = Math.floor(Math.random()*256);
     let c2 = Math.floor(Math.random()*256);
     let c3 = Math.floor(Math.random()*256);
+    let r = Math.floor(Math.random()*360);
 
-    let div = document.createElement("div");
-    div.style.height = "80px";
-    div.style.width = "80px";
-    div.style.position = "absolute";
-    div.style.left = x+"%";
-    div.style.top = y+"%";
-    div.style.backgroundColor = `rgb(${c1},${c2},${c3})`;
-    div.style.rotate = r+"deg";
-    main.appendChild(div);
+    let a = Math.floor(Math.random()*arr.length);
+    div.style.height = '80px';
+    div.style.width = '80px';
+    div.style.position = 'absolute'
+    div.style.backgroundColor = `rgb(${c1},${c2},${c3})`
+    div.style.top = Math.floor(Math.random()*100)+'%';
+    div.style.left = Math.floor(Math.random()*100)+'%';
+    div.style.rotate = r +'deg'
+    h1.innerHTML = arr[a];
+    console.log(h1)
+    div.appendChild(h1)
+    main.appendChild(div)
+    console.log(div)
 })
