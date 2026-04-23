@@ -7,7 +7,8 @@ html,body{
     height: 100%;
     width: 100%;
 }
-#main{
+/* Project 1 */
+/* #main{
     width: 100%;
     height: 100%;
     background-color: black;
@@ -52,4 +53,55 @@ html,body{
 }
 .bottom button:active{
     scale: 0.95;
+} */
+
+
+/* Project 2 */
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.card{
+    width: 250px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px 20px;
+    padding: 30px;
+    position: relative;
+}
+.card div{
+    position: relative;
+    overflow: hidden;
+}
+.card img{
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    border-radius: 20px;
+    object-position: center;
+}
+
+.card h2{
+    font-size: 30px;
+    text-align: center;
+}
+.card i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0) rotate(-90deg);
+    font-size: 50px;
+    background: linear-gradient(to right bottom,rgb(219, 45, 18),rgb(240, 7, 186));
+    opacity: 0;
+    color: transparent;
+    background-clip: text;
+    transition: all cubic-bezier(.65,1,.77,1.44) 0.4s;
+}
+
