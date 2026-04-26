@@ -1,0 +1,20 @@
+// Ek kamra ek banda bana sakta hai
+// Naksha -> nahi chahiye
+// Architect -> nahi chahiye
+
+
+// That is where oop comes into mind
+// Jab bhi bada s/w banta hai waise code nahi likhte jiase poore dom mein aapne dekha hai
+// And here we use object oriented programming to manage code into objects , classess and function
+
+
+// Object orineted programming
+
+// Code -> objects , classes and functions
+Modular 
+Scalable
+Manageable
+
+Classes bnate hai taaki har bar ek aya object mil jaye
+Classes object ki factory hai
+Har baar new word ke sath class run karoge to ek naya object milega
