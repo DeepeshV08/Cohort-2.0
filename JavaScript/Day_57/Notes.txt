@@ -1,0 +1,7 @@
+This value 
+global -> window
+function -> window  
+es5 function inside object -> object
+es6 function inside object -> window
+es5 function inside es5 function inside object -> window
+es6 function inside es5 function inside object -> object
